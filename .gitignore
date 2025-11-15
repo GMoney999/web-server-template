@@ -1,1 +1,113 @@
-/target
+# Rust Build Artifacts
+/target/
+**/*.rlib
+**/*.rmeta
+Cargo.lock
+
+# Compiled Binaries
+*.pdb
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+*.iml
+*.iws
+*.ipr
+.c9/
+*.sublime-workspace
+*.sublime-project
+.vim/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logging
+*.log
+logs/
+log/
+
+# Testing Coverage
+tarpaulin-report.html
+cobertura.xml
+coverage/
+*.profraw
+*.profdata
+
+# Dependencies and Caches
+.cargo/
+Cargo.lock.bak
+**/__pycache__/
+**/*.pyc
+node_modules/
+
+# OS-specific Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# Generated Files
+*.generated.rs
+dist/
+build/
+
+# Local Configuration
+*.conf.local
+local.conf
+
+# Temporary Files
+*.tmp
+*.temp
+/tmp/
+
+# Database Files (if applicable)
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker and Container Files
+docker-compose.override.yml
+.dockerignore.local
+
+# IDE Specific
+vscode-settings.json
+.idea/misc.xml
+.idea/modules.xml
+
+# Secrets and Credentials (never commit these)
+secrets.yml
+config.secret.toml
+.ssh/
+private_key*
+
+# System Files
+.gitkeep
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Build Output
+dist/
+build/
+*.out
+out/
