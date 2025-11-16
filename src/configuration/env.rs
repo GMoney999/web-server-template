@@ -1,5 +1,4 @@
 // src/configuration/env.rs
-
 use crate::Error;
 
 pub async fn get_env(env_var: impl Into<String>) -> crate::Result<String> {
